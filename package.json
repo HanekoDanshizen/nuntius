@@ -1,0 +1,31 @@
+{
+  "name": "nuntius",
+  "version": "1.0.0",
+  "description": "nuntius is a simple self written telegram client which uses the telegram bot API to create a learning platform for pupils. It should help them by learning their subject material in an easy way with their friends.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+	"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HanekoDanshizen/nuntius.git"
+  },
+  "keywords": [
+    "nuntius",
+    "telegram",
+    "bot",
+    "npm"
+  ],
+  "author": "Haneko Danshizen <hanekodanshizen@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HanekoDanshizen/nuntius/issues"
+  },
+  "homepage": "https://github.com/HanekoDanshizen/nuntius#readme",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
